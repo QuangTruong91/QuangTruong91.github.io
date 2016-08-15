@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.banner{
+	width: 1000px;
+}
+
+img{
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+}
+
+.wrap{
+	width: 1000px;
+	margin: auto;
+	
+}
+
+.content{
+	width: 100%;
+}
+
+a:link{
+	color: blue;
+}
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: red;
+}
+a:active {
+    color: #aaaaaa;
+}
+a{
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+div > p::first-line{
+	color: #003366;
+}
+
