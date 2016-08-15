@@ -17,9 +17,21 @@ img{
 	margin: auto;
 	
 }
+.content img{
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box;
 
-.content{
-	width: 100%;
+}
+
+.content img:hover{
+	-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+	-moz-transform:scale(1.1); /*Mozilla scale version*/
+	-o-transform:scale(1.1); /*Opera scale version*/
+	box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+	-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+	-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+	opacity: 1;
 }
 
 a:link{
@@ -44,3 +56,11 @@ div > p::first-line{
 	color: #003366;
 }
 
+.menu{
+	text-align: center;
+}
+
+.about{
+	text-align: center;
+	margin-top: 100px;
+}
